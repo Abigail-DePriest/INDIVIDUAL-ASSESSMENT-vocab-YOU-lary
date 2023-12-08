@@ -1,14 +1,16 @@
-import logoutButton from '../components/buttons/logoutButton';
+import logoutButton from '../components/logoutButton';
 import domBuilder from '../components/shared/domBuilder';
 import navBar from '../components/shared/navBar';
-import domEvents from '../events/domEvents';
-import formEvents from '../events/formEvents';
-import navigationEvents from '../events/navigationEvents';
+import navigationEvents from '../components/events/navigationEvents';
+import { getPlants } from '../api/plantData';
+import showPlants from '../pages/plants';
+import domEvents from '../components/events/domEvents';
+import formEvents from '../components/events/formEvents';
 
-const startApp = (user) => {
+const startApp = () => {
   domBuilder(); // BUILD THE DOM
-  domEvents(user); // ADD THE EVENT LISTENERS TO THE DOM
-  formEvents(user); // ADD FORM EVENT LISTENERS TO THE DOM
+  domEvents(); // ADD THE EVENT LISTENERS TO THE DOM
+  formEvents(); // ADD FORM EVENT LISTENERS TO THE DOM
   navBar(); // DYNAMICALLY ADD THE NAV
   logoutButton(); // ADD THE LOGOUT BUTTON COMPONENT
   navigationEvents(); // ATTACH THE EVENT LISTENERS TO THE NAVBAR

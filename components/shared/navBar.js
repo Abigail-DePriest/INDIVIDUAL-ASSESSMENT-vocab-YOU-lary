@@ -1,37 +1,29 @@
-import renderToDOM from "../../utils/renderToDom";
+import renderToDOM from '../../utils/renderToDom';
+
 const navBar = () => {
   const domString = `<nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar w/ text</a>
+    <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">All Plants</a>
+          <a class="nav-link active" aria-current="page" href="#" id="all-plants">All Plants</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Trees</a>
+          <a class="nav-link" href="#" id="newPlant">New Plant</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Flowers</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#">Herbs</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link" href="#">Succulents</a>
-    </li>
       </ul>
       <span class="navbar-text">
-        Navbar text with an inline element
+        
       </span>
     </div>
   </div>
-</nav>`
+</nav>`;
 
-renderToDOM('#navigation', domString);
+  renderToDOM('#navigation', domString);
 };
 
 export default navBar;
