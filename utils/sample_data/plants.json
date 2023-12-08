@@ -1,0 +1,47 @@
+{
+  "-Nkx5OowB-AKyiy8w82L": {
+    "title": "Ginkgo Biloba",
+    "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. am   porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "favorite": true,
+    "type": "tree",
+    "timeSubmitted": "",
+    "firebaseKey": "-Nkx5OowB-AKyiy8w82L",
+    "uid": ""
+  },
+  "-Nkx5OoxPllg3gqGh3js": {
+    "title": "Lythops",
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+    "favorite": true,
+    "type": "succulent",
+    "timeSubmitted": "",
+    "firebaseKey" : "-Nkx5OoxPllg3gqGh3js",
+    "uid": ""
+  },
+  "-Nkx5OozF1naeBe0JTke": {
+    "title": "Bee Balm",
+    "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "favorite": true,
+    "type": "flower",
+    "timeSubmitted": "",
+    "firebaseKey": "-Nkx5OozF1naeBe0JTke",
+    "uid": ""
+  },
+  "-Nkx5Op-edTMNJjhuFpI": {
+    "title": "Tulsi",
+    "description": "a ut erat id mauris vulputate elementum. am varius. a facilisi. nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel a eget eros elementum pellentesque. nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, a. Nunc purus.",
+    "favorite": false,
+    "type": "herbs",
+    "timeSubmitted": "",
+    "firebaseKey": "-Nkx5Op-edTMNJjhuFpI",
+    "uid": ""
+  },
+  "-Nkx5Op1eYn5bev9tM5p": {
+    "title": "Ficus Nerifolia",
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "favorite": false,
+    "type": "tree",
+    "timeSubmitted": "",
+    "firebaseKey" : "-Nkx5Op1eYn5bev9tM5p",
+    "uid": ""
+  }
+}
