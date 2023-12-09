@@ -22,7 +22,7 @@ const showPlants = (array) => {
             <i id="delete-book-btn--${item.firebaseKey}" class="btn btn-danger fas fa-trash-alt"></i>
   </div>
 </div>`;
-    renderToDOM('#main-container', domString);
+    renderToDOM('#form-container', domString);
   });
 };
 

@@ -19,8 +19,8 @@ const addPlantForm = (obj = {}) => {
         <input type="url" class="form-control" id="image" placeholder="Image URL" value="${obj.image || ''}" required>
       </div>
       <div class="form-group">
-        <label for="price">Type</label>
-        <input type="text" class="form-control" id="price" placeholder="Plant Type" value="${obj.type || ''}" required>
+      <label for="type">Type</label>
+      <input type="type" class="form-control" id="type" placeholder="Type" value="${obj.type || ''}" required>
       </div>
       
       <button type="submit" class="btn btn-primary">Submit

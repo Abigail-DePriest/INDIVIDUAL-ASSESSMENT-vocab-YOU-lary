@@ -2,7 +2,7 @@ import showPlants from '../../pages/plants';
 import { createPlant, updatePlants, getPlants } from '../../api/plantData';
 
 const formEvents = (user) => {
-  document.querySelector('#main-container').addEventListener('submit', (e) => {
+  document.querySelector('#form-container').addEventListener('submit', (e) => {
     e.preventDefault();
     // TODO: CLICK EVENT FOR SUBMITTING FORM FOR ADDING A BOOK
     if (e.target.id.includes('submit-plant')) {
